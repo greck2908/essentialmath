@@ -23,7 +23,6 @@
 #elif __APPLE__ && __MACH__ && !NDEBUG
 #include <assert.h>
 #include <sys/sysctl.h>
-#include <unistd.h>
 #endif
 
 #include "IvDebugger.h"
